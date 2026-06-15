@@ -1,3 +1,15 @@
+<script setup lang="ts">
+const props = defineProps({
+  title: {
+    type: String,
+    default: 'Curriculum Vitae'
+  }
+})
+</script>
+
 <template>
-  <div>This is generic CV template</div>
+  <CvHeader :title="props.title" />
+  <UContainer>
+    Test
+  </UContainer>
 </template>

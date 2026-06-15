@@ -1,3 +1,3 @@
 <template>
-  <div>This is hungarian page</div>
+  <CvTemplate />
 </template>
