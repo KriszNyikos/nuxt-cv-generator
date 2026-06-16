@@ -8,9 +8,6 @@ const { contact } = defineProps<{
 </script>
 
 <template>
-  <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
-    {{ title }}
-  </h2>
   <ul class="list-none p-0 m-0 grid gap-1">
     <li>
       <strong>Email:</strong> <a
