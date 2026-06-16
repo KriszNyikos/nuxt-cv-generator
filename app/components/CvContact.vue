@@ -37,7 +37,3 @@ const { contact } = defineProps<{
     </li>
   </ul>
 </template>
-
-<style scoped>
-
-</style>

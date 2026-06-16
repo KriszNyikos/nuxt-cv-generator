@@ -21,7 +21,3 @@ const { languages } = defineProps<{
     </ul>
   </UContainer>
 </template>
-
-<style scoped>
-
-</style>

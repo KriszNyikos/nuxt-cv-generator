@@ -34,7 +34,3 @@ const { experience } = defineProps<{
     </article>
   </div>
 </template>
-
-<style scoped>
-
-</style>
