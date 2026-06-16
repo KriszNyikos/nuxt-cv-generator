@@ -3,12 +3,13 @@ import type { CvContent } from '@/types'
 
 const { contact } = defineProps<{
   contact: CvContent['contact']
+  title: string
 }>()
 </script>
 
 <template>
   <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
-    Contact
+    {{ title }}
   </h2>
   <ul class="list-none p-0 m-0 grid gap-1">
     <li>

@@ -3,12 +3,13 @@ import type { CvContent } from '@/types'
 
 const { education } = defineProps<{
   education: CvContent['education']
+  title: string
 }>()
 </script>
 
 <template>
   <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
-    Education
+    {{ title }}
   </h2>
   <div v-if="Array.isArray(education)">
     <div

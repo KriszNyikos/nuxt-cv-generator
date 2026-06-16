@@ -1,23 +1,22 @@
 <script setup lang="ts">
 import type { CvContent } from '@/types'
 
-const { languages } = defineProps<{
+const { languages, title } = defineProps<{
   languages: CvContent['languages']
+  title: string
 }>()
 </script>
 
 <template>
-  <UContainer>
-    <h2 class="text-2xl font-bold mb-4">
-      Languages
-    </h2>
-    <ul class="list-disc list-inside">
-      <li
-        v-for="(language, index) in languages"
-        :key="index"
-      >
-        {{ language }}
-      </li>
-    </ul>
-  </UContainer>
+  <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
+    {{ title }}
+  </h2>
+  <ul class="list-disc list-inside">
+    <li
+      v-for="(language, index) in languages"
+      :key="index"
+    >
+      {{ language }}
+    </li>
+  </ul>
 </template>

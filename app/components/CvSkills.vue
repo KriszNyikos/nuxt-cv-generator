@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import type { CvContent } from '@/types'
 
-const { skills } = defineProps<{
+const { skills, title } = defineProps<{
   skills: CvContent['skills']
+  title: string
 }>()
 </script>
 
 <template>
-  <h2 class="text-2xl font-bold mb-4">
-    Skills
+  <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
+    {{ title }}
   </h2>
   <ul class="list-disc list-inside">
     <li
