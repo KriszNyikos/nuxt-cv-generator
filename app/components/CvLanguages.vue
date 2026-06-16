@@ -8,10 +8,10 @@ const { languages, title } = defineProps<{
 </script>
 
 <template>
-  <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
+  <h2 class="text-lg font-bold border-b border-gray-200 pb-1">
     {{ title }}
   </h2>
-  <ul class="list-disc list-inside">
+  <ul class="list-none list-inside">
     <li
       v-for="(language, index) in languages"
       :key="index"
