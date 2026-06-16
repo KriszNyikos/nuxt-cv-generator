@@ -1,15 +1,12 @@
 <script setup lang="ts">
-const props = defineProps({
-  title: {
-    type: String,
-    default: 'Curriculum Vitae'
-  }
-})
+import type { CvContent } from '@/types'
+
+const props = defineProps<{ content: CvContent }>()
 </script>
 
 <template>
-  <CvHeader :title="props.title" />
+  <CvHeader :title="props.content.familyName + ' ' + props.content.givenName" />
   <UContainer>
-    Test
+    <CvAbout :about="props.content.about" />
   </UContainer>
 </template>
