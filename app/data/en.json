@@ -2,26 +2,91 @@
   "familyName": "Nyikos",
   "givenName": "Krisztián",
   "about": "I am a developer with over 5 years of experience, skilled in everything from building enterprise applications to managing full project architecture and deployment. I support teamwork with strong communication skills, quick learning ability, and the active application of AI-powered development. My long-term goal is to create value in a senior front-end or full-stack role.",
-"skills": [
-  { "name": "JavaScript (ES6+) / TypeScript", "category": "Frontend", "level": "Expert" },
-  { "name": "Vue 3 / Pinia", "category": "Frontend", "level": "Advanced" },
-  { "name": "Angular (v16+) / Angular Material", "category": "Frontend", "level": "Expert" },
-  { "name": "React", "category": "Frontend", "level": "Beginner" },
-  { "name": "Tailwind CSS / Bootstrap", "category": "Frontend", "level": "Advanced" },
-  { "name": "Node.js / Express", "category": "Backend", "level": "Intermediate" },
-  { "name": "Python / FastAPI", "category": "Backend", "level": "Intermediate" },
-  { "name": "REST API", "category": "Backend", "level": "Advanced" },
-  { "name": "Docker / Docker Compose", "category": "DevOps", "level": "Intermediate" },
-  { "name": "GitLab CI/CD", "category": "DevOps", "level": "Intermediate" },
-  { "name": "Nginx", "category": "DevOps", "level": "Intermediate" },
-  { "name": "Redis", "category": "DevOps", "level": "Intermediate" },
-  { "name": "Elasticsearch", "category": "DevOps", "level": "Intermediate" },
-  { "name": "Playwright", "category": "Tools", "level": "Advanced" },
-  { "name": "Git / GitHub / GitLab", "category": "Tools", "level": "Expert" },
-  { "name": "GitHub Copilot (agent mode)", "category": "Tools", "level": "Advanced" }
-],
+  "skills": [
+    {
+      "name": "JavaScript (ES6+) / TypeScript",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "name": "Vue 3 / Pinia",
+      "category": "Frontend",
+      "level": "Advanced"
+    },
+    {
+      "name": "Angular (v16+) / Angular Material",
+      "category": "Frontend",
+      "level": "Expert"
+    },
+    {
+      "name": "React",
+      "category": "Frontend",
+      "level": "Beginner"
+    },
+    {
+      "name": "Tailwind CSS / Bootstrap",
+      "category": "Frontend",
+      "level": "Advanced"
+    },
+    {
+      "name": "Node.js / Express",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Python / FastAPI",
+      "category": "Backend",
+      "level": "Intermediate"
+    },
+    {
+      "name": "REST API",
+      "category": "Backend",
+      "level": "Advanced"
+    },
+    {
+      "name": "Docker / Docker Compose",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "name": "GitLab CI/CD",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Nginx",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Redis",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Elasticsearch",
+      "category": "DevOps",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Playwright",
+      "category": "Tools",
+      "level": "Advanced"
+    },
+    {
+      "name": "Git / GitHub / GitLab",
+      "category": "Tools",
+      "level": "Expert"
+    },
+    {
+      "name": "GitHub Copilot (agent mode)",
+      "category": "Tools",
+      "level": "Advanced"
+    }
+  ],
   "languages": {
-    "English": "Good command of English"
+    "English": "B2 - Upper Intermediate",
+    "Hungarian": "Native"
   },
   "contact": {
     "email": "krisz.nyikos@gmail.com",
@@ -37,7 +102,14 @@
       "description": "Designed and built an internal cybersecurity dashboard from the ground up as a solo full-stack developer. Owned the full lifecycle architecture decisions, feature development, infrastructure, and deployment. Actively used GitHub Copilot (agent mode) to accelerate development.",
       "startDate": "2025-01",
       "endDate": "2026-06",
-      "technologies": ["JavaScript", "TypeScript", "Python", "FastAPI", "Docker", "GitHub Copilot"]
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Docker",
+        "GitHub Copilot"
+      ]
     },
     {
       "company": "NIX Tech Kft.",
@@ -45,7 +117,11 @@
       "description": "Worked on an American Payroll & Finance platform. Converted features from legacy AngularJS codebase to Angular 17. Mentoring junior developers and participating in technical interviews.",
       "startDate": "2023-08",
       "endDate": "2025-01",
-      "technologies": ["Angular", "AngularJS", "TypeScript"]
+      "technologies": [
+        "Angular",
+        "AngularJS",
+        "TypeScript"
+      ]
     },
     {
       "company": "Supercharge Kft.",
@@ -53,7 +129,11 @@
       "description": "Worked on an international project from the first line of code in Angular. Built and documented new components using Storybook.",
       "startDate": "2022-11",
       "endDate": "2023-08",
-      "technologies": ["Angular", "JavaScript", "Storybook"]
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "Storybook"
+      ]
     },
     {
       "company": "EPAM Systems Kft.",
@@ -61,7 +141,10 @@
       "description": "Collaborated with senior Angular developers on enterprise-grade applications. Bug fixing and feature development in Angular.",
       "startDate": "2021-12",
       "endDate": "2022-11",
-      "technologies": ["Angular", "JavaScript"]
+      "technologies": [
+        "Angular",
+        "JavaScript"
+      ]
     }
   ],
   "education": [
