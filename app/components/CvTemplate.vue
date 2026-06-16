@@ -11,7 +11,7 @@ const { isHu } = isHuRoute()
   <div class="max-w-[1100px] mx-auto p-4">
     <CvHeader :title="content.familyName + ' ' + content.givenName" />
 
-    <section class="grid grid-cols-1 md:grid-cols-[320px_1fr] gap-5 items-start">
+    <section class="grid grid-cols-1 md:grid-cols-[320px_1fr] gap-5 items-start mt-6">
       <aside class="flex flex-col gap-4">
         <CvImage />
         <CvAbout
