@@ -33,7 +33,7 @@
   "experience": [
     {
       "company": "Black Cell Hungary Zrt.",
-      "position": "FULLSTACK ENGINEER",
+      "position": "Fullstack Engineer",
       "description": "Egy belső kibervédelmi műszerfal (dashboard) tervezése és teljes körű lefejlesztése egyedüli full-stack fejlesztőként. A projekt teljes életciklusának menedzselése: architekturális döntések, funkciók fejlesztése, infrastruktúra és telepítés. A fejlesztési folyamatok felgyorsítására aktívan használtam a GitHub Copilot-ot (agent mode).",
       "startDate": "2025-01",
       "endDate": "2026-06",
@@ -41,7 +41,7 @@
     },
     {
       "company": "NIX Tech Kft.",
-      "position": "MEDIOR ANGULAR DEVELOPER",
+      "position": "Medior Angular Developer",
       "description": "Fejlesztési munkák egy amerikai bérszámfejtő és pénzügyi platformon. Funkciók migrálása és újraírása örökölt AngularJS kódbázisból Angular 17-re. Junior fejlesztők mentorálása és részvétel a technikai interjúztatásban.",
       "startDate": "2023-08",
       "endDate": "2025-01",
@@ -49,7 +49,7 @@
     },
     {
       "company": "Supercharge Kft.",
-      "position": "JAVASCRIPT DEVELOPER",
+      "position": "JavaScript Developer",
       "description": "Részvétel egy nemzetközi projektben az első kódsortól kezdve Angular alapokon. Új komponensek fejlesztése és dokumentálása Storybook segítségével.",
       "startDate": "2022-11",
       "endDate": "2023-08",
@@ -57,7 +57,7 @@
     },
     {
       "company": "EPAM Systems Kft.",
-      "position": "SOFTWARE ENGINEER",
+      "position": "Software Engineer",
       "description": "Együttműködés senior Angular fejlesztőkkel nagyvállalati (enterprise) alkalmazásokon. Hibajavítások és új funkciók implementálása Angular környezetben.",
       "startDate": "2021-12",
       "endDate": "2022-11",
@@ -67,19 +67,19 @@
   "education": [
     {
       "institution": "Braining Hub Oktatási Központ",
-      "degree": "JUNIOR FULL STACK FEJLESZTŐ",
+      "degree": "Junior Fullstack Fejlesztő",
       "fieldOfStudy": "Szoftverfejlesztés",
       "endDate": "2020"
     },
     {
       "institution": "Oktáv Zrt.",
-      "degree": "SZOFTVERFEJLESZTŐ",
+      "degree": "Szoftverfejlesztő",
       "fieldOfStudy": "Országos Képzési Jegyzék (OKJ)",
       "endDate": "2019"
     },
     {
       "institution": "Debreceni Egyetem",
-      "degree": "KOMMUNIKÁCIÓ ÉS MÉDIATUDOMÁNY Bsc",
+      "degree": "Kommunikáció és Médiatudomány Bsc",
       "fieldOfStudy": "Írott és audiovizuális sajtó szakirány",
       "startDate": "2011",
       "endDate": "2015"

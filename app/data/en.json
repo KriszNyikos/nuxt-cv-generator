@@ -33,7 +33,7 @@
   "experience": [
     {
       "company": "Black Cell Hungary Zrt.",
-      "position": "FULLSTACK ENGINEER",
+      "position": "Fullstack Engineer",
       "description": "Designed and built an internal cybersecurity dashboard from the ground up as a solo full-stack developer. Owned the full lifecycle architecture decisions, feature development, infrastructure, and deployment. Actively used GitHub Copilot (agent mode) to accelerate development.",
       "startDate": "2025-01",
       "endDate": "2026-06",
@@ -41,7 +41,7 @@
     },
     {
       "company": "NIX Tech Kft.",
-      "position": "MEDIOR ANGULAR DEVELOPER",
+      "position": "Medior Angular Developer",
       "description": "Worked on an American Payroll & Finance platform. Converted features from legacy AngularJS codebase to Angular 17. Mentoring junior developers and participating in technical interviews.",
       "startDate": "2023-08",
       "endDate": "2025-01",
@@ -49,7 +49,7 @@
     },
     {
       "company": "Supercharge Kft.",
-      "position": "JAVASCRIPT DEVELOPER",
+      "position": "JavaScript Developer",
       "description": "Worked on an international project from the first line of code in Angular. Built and documented new components using Storybook.",
       "startDate": "2022-11",
       "endDate": "2023-08",
@@ -57,7 +57,7 @@
     },
     {
       "company": "EPAM Systems Kft.",
-      "position": "SOFTWARE ENGINEER",
+      "position": "Software Engineer",
       "description": "Collaborated with senior Angular developers on enterprise-grade applications. Bug fixing and feature development in Angular.",
       "startDate": "2021-12",
       "endDate": "2022-11",
@@ -67,19 +67,19 @@
   "education": [
     {
       "institution": "Braining Hub Training Center",
-      "degree": "JUNIOR FULL STACK DEVELOPER",
+      "degree": "Junior Fullstack Developer",
       "fieldOfStudy": "Software Development",
       "endDate": "2020"
     },
     {
       "institution": "Oktáv Zrt.",
-      "degree": "SOFTWARE DEVELOPER",
+      "degree": "Software Developer",
       "fieldOfStudy": "National Qualifications Register (OKJ)",
       "endDate": "2019"
     },
     {
       "institution": "University of Debrecen",
-      "degree": "BACHELOR OF COMMUNICATION AND MEDIA STUDIES",
+      "degree": "Bachelor of Communication and Media Studies",
       "fieldOfStudy": "Written and Audiovisual Journalism specialization",
       "startDate": "2011",
       "endDate": "2015"
