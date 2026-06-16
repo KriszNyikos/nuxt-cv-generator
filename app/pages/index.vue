@@ -1,7 +1,7 @@
 <script setup>
-import content from '../data/en.json'
+import { en } from '../data'
 </script>
 
 <template>
-  <CvTemplate :content="content" />
+  <CvTemplate :content="en" />
 </template>
