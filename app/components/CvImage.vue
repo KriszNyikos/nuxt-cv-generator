@@ -6,6 +6,6 @@ import profileImage from '@/assets/images/profile_image.jpg'
   <img
     :src="profileImage"
     alt="Profile Image"
-    class="w-32 h-32 rounded-full object-cover mx-auto mb-4"
+    class="w-56 h-56 rounded-full object-cover mx-auto"
   >
 </template>
