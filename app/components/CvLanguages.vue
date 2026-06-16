@@ -11,12 +11,20 @@ const { languages, title } = defineProps<{
   <h2 class="text-lg font-bold border-b border-gray-200 pb-1">
     {{ title }}
   </h2>
-  <ul class="list-none list-inside">
-    <li
-      v-for="(language, index) in languages"
+  <div class="flex flex-col gap-1 mt-2">
+    <div
+      v-for="([language, level], index) in Object.entries(languages)"
       :key="index"
+      class="flex justify-between items-center text-sm gap-2"
     >
-      {{ language }}
-    </li>
-  </ul>
+      <span class="font-medium">{{ language }}</span>
+      <UBadge
+        variant="subtle"
+        color="neutral"
+        size="sm"
+      >
+        {{ level }}
+      </UBadge>
+    </div>
+  </div>
 </template>
