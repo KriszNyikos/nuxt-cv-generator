@@ -1,0 +1,88 @@
+{
+  "familyName": "Nyikos",
+  "givenName": "Krisztián",
+  "about": "I am a developer with over 5 years of experience, skilled in everything from building enterprise applications to managing full project architecture and deployment. I support teamwork with strong communication skills, quick learning ability, and the active application of AI-powered development. My long-term goal is to create value in a senior front-end or full-stack role.",
+  "skills": [
+    { "name": "JavaScript (ES6+) / TypeScript", "category": "Frontend" },
+    { "name": "Vue 3 / Pinia", "category": "Frontend" },
+    { "name": "Angular (v16+) / Angular Material", "category": "Frontend" },
+    { "name": "React", "category": "Frontend" },
+    { "name": "Tailwind CSS / Bootstrap", "category": "Frontend" },
+    { "name": "Node.js / Express", "category": "Backend" },
+    { "name": "Python / FastAPI", "category": "Backend" },
+    { "name": "REST API", "category": "Backend" },
+    { "name": "Docker / Docker Compose", "category": "DevOps" },
+    { "name": "GitLab CI/CD", "category": "DevOps" },
+    { "name": "Nginx", "category": "DevOps" },
+    { "name": "Redis", "category": "DevOps" },
+    { "name": "Elasticsearch", "category": "DevOps" },
+    { "name": "Playwright", "category": "Tools" },
+    { "name": "Git / GitHub / GitLab", "category": "Tools" },
+    { "name": "GitHub Copilot (agent mode)", "category": "Tools" }
+  ],
+  "languages": {
+    "English": "Good command of English"
+  },
+  "contact": {
+    "email": "krisz.nyikos@gmail.com",
+    "phone": "+36202894310",
+    "location": "Budapest",
+    "linkedin": "www.linkedin.com/in/krisztián-nyikos-499837b3/",
+    "github": "github.com/KriszNyikos"
+  },
+  "experience": [
+    {
+      "company": "Black Cell Hungary Zrt.",
+      "position": "FULLSTACK ENGINEER",
+      "description": "Designed and built an internal cybersecurity dashboard from the ground up as a solo full-stack developer. Owned the full lifecycle architecture decisions, feature development, infrastructure, and deployment. Actively used GitHub Copilot (agent mode) to accelerate development.",
+      "startDate": "2025-01",
+      "endDate": "2026-06",
+      "technologies": ["JavaScript", "TypeScript", "Python", "FastAPI", "Docker", "GitHub Copilot"]
+    },
+    {
+      "company": "NIX Tech Kft.",
+      "position": "MEDIOR ANGULAR DEVELOPER",
+      "description": "Worked on an American Payroll & Finance platform. Converted features from legacy AngularJS codebase to Angular 17. Mentoring junior developers and participating in technical interviews.",
+      "startDate": "2023-08",
+      "endDate": "2025-01",
+      "technologies": ["Angular", "AngularJS", "TypeScript"]
+    },
+    {
+      "company": "Supercharge Kft.",
+      "position": "JAVASCRIPT DEVELOPER",
+      "description": "Worked on an international project from the first line of code in Angular. Built and documented new components using Storybook.",
+      "startDate": "2022-11",
+      "endDate": "2023-08",
+      "technologies": ["Angular", "JavaScript", "Storybook"]
+    },
+    {
+      "company": "EPAM Systems Kft.",
+      "position": "SOFTWARE ENGINEER",
+      "description": "Collaborated with senior Angular developers on enterprise-grade applications. Bug fixing and feature development in Angular.",
+      "startDate": "2021-12",
+      "endDate": "2022-11",
+      "technologies": ["Angular", "JavaScript"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Braining Hub Training Center",
+      "degree": "JUNIOR FULL STACK DEVELOPER",
+      "fieldOfStudy": "Software Development",
+      "endDate": "2020"
+    },
+    {
+      "institution": "Oktáv Zrt.",
+      "degree": "SOFTWARE DEVELOPER",
+      "fieldOfStudy": "National Qualifications Register (OKJ)",
+      "endDate": "2019"
+    },
+    {
+      "institution": "University of Debrecen",
+      "degree": "BACHELOR OF COMMUNICATION AND MEDIA STUDIES",
+      "fieldOfStudy": "Written and Audiovisual Journalism specialization",
+      "startDate": "2011",
+      "endDate": "2015"
+    }
+  ]
+}

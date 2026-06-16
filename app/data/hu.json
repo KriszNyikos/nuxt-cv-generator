@@ -1,0 +1,88 @@
+{
+  "familyName": "Nyikos",
+  "givenName": "Krisztián",
+  "about": "Több mint 5 év tapasztalattal rendelkező fejlesztő vagyok, aki a vállalati alkalmazások építésétől a teljes projektarchitektúra és deployment menedzseléséig szerzett gyakorlatot. Erős kommunikációs készséggel, gyors tanulási képességgel és az AI-alapú fejlesztés aktív alkalmazásával támogatom a csapatmunkát. Senior front-end vagy full-stack szerepkörben szeretnék hosszú távon értéket teremteni.",
+  "skills": [
+    { "name": "JavaScript (ES6+) / TypeScript", "category": "Frontend" },
+    { "name": "Vue 3 / Pinia", "category": "Frontend" },
+    { "name": "Angular (v16+) / Angular Material", "category": "Frontend" },
+    { "name": "React", "category": "Frontend" },
+    { "name": "Tailwind CSS / Bootstrap", "category": "Frontend" },
+    { "name": "Node.js / Express", "category": "Backend" },
+    { "name": "Python / FastAPI", "category": "Backend" },
+    { "name": "REST API", "category": "Backend" },
+    { "name": "Docker / Docker Compose", "category": "DevOps" },
+    { "name": "GitLab CI/CD", "category": "DevOps" },
+    { "name": "Nginx", "category": "DevOps" },
+    { "name": "Redis", "category": "DevOps" },
+    { "name": "Elasticsearch", "category": "DevOps" },
+    { "name": "Playwright", "category": "Tools" },
+    { "name": "Git / GitHub / GitLab", "category": "Tools" },
+    { "name": "GitHub Copilot (agent mode)", "category": "Tools" }
+  ],
+  "languages": {
+    "Angol": "Tárgyalóképes / jó kommunikációs készség"
+  },
+  "contact": {
+    "email": "krisz.nyikos@gmail.com",
+    "phone": "+36202894310",
+    "location": "Budapest",
+    "linkedin": "www.linkedin.com/in/krisztián-nyikos-499837b3/",
+    "github": "github.com/KriszNyikos"
+  },
+  "experience": [
+    {
+      "company": "Black Cell Hungary Zrt.",
+      "position": "FULLSTACK ENGINEER",
+      "description": "Egy belső kibervédelmi műszerfal (dashboard) tervezése és teljes körű lefejlesztése egyedüli full-stack fejlesztőként. A projekt teljes életciklusának menedzselése: architekturális döntések, funkciók fejlesztése, infrastruktúra és telepítés. A fejlesztési folyamatok felgyorsítására aktívan használtam a GitHub Copilot-ot (agent mode).",
+      "startDate": "2025-01",
+      "endDate": "2026-06",
+      "technologies": ["JavaScript", "TypeScript", "Python", "FastAPI", "Docker", "GitHub Copilot"]
+    },
+    {
+      "company": "NIX Tech Kft.",
+      "position": "MEDIOR ANGULAR DEVELOPER",
+      "description": "Fejlesztési munkák egy amerikai bérszámfejtő és pénzügyi platformon. Funkciók migrálása és újraírása örökölt AngularJS kódbázisból Angular 17-re. Junior fejlesztők mentorálása és részvétel a technikai interjúztatásban.",
+      "startDate": "2023-08",
+      "endDate": "2025-01",
+      "technologies": ["Angular", "AngularJS", "TypeScript"]
+    },
+    {
+      "company": "Supercharge Kft.",
+      "position": "JAVASCRIPT DEVELOPER",
+      "description": "Részvétel egy nemzetközi projektben az első kódsortól kezdve Angular alapokon. Új komponensek fejlesztése és dokumentálása Storybook segítségével.",
+      "startDate": "2022-11",
+      "endDate": "2023-08",
+      "technologies": ["Angular", "JavaScript", "Storybook"]
+    },
+    {
+      "company": "EPAM Systems Kft.",
+      "position": "SOFTWARE ENGINEER",
+      "description": "Együttműködés senior Angular fejlesztőkkel nagyvállalati (enterprise) alkalmazásokon. Hibajavítások és új funkciók implementálása Angular környezetben.",
+      "startDate": "2021-12",
+      "endDate": "2022-11",
+      "technologies": ["Angular", "JavaScript"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Braining Hub Oktatási Központ",
+      "degree": "JUNIOR FULL STACK FEJLESZTŐ",
+      "fieldOfStudy": "Szoftverfejlesztés",
+      "endDate": "2020"
+    },
+    {
+      "institution": "Oktáv Zrt.",
+      "degree": "SZOFTVERFEJLESZTŐ",
+      "fieldOfStudy": "Országos Képzési Jegyzék (OKJ)",
+      "endDate": "2019"
+    },
+    {
+      "institution": "Debreceni Egyetem",
+      "degree": "KOMMUNIKÁCIÓ ÉS MÉDIATUDOMÁNY Bsc",
+      "fieldOfStudy": "Írott és audiovizuális sajtó szakirány",
+      "startDate": "2011",
+      "endDate": "2015"
+    }
+  ]
+}

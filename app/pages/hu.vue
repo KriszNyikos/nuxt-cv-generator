@@ -1,3 +1,7 @@
+<script setup>
+import content from '../data/hu.json'
+</script>
+
 <template>
-  <CvTemplate />
+  <CvTemplate :content="content" />
 </template>
