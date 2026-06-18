@@ -12,5 +12,6 @@ export enum CvSkillCategory {
   DEVOPS = 'DevOps',
   MOBILE = 'Mobile',
   DESIGN = 'Design',
+  LANGUAGE = 'Language',
   OTHER = 'Other'
 }
