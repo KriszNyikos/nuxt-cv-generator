@@ -1,6 +1,7 @@
 {
   "familyName": "Nyikos",
   "givenName": "Krisztián",
+  "jobTitle": "Frontend / Fullstack fejlesztő",
   "about": "Több mint 5 év tapasztalattal rendelkező fejlesztő vagyok, aki a vállalati alkalmazások építésétől a teljes projektarchitektúra és deployment menedzseléséig szerzett gyakorlatot. Erős kommunikációs készséggel, gyors tanulási képességgel és az AI-alapú fejlesztés aktív alkalmazásával támogatom a csapatmunkát. Senior front-end vagy full-stack szerepkörben szeretnék hosszú távon értéket teremteni.",
   "skills": [
     {
@@ -82,12 +83,13 @@
       "name": "GitHub Copilot (agent mode)",
       "category": "Tools",
       "level": "Advanced"
+    },
+    {
+      "name": "English",
+      "category": "Language",
+      "level": "B2 - Haladó középfok"
     }
   ],
-  "languages": {
-    "English": "B2 - Középfokú nyelvtudás",
-    "Hungarian": "Natív"
-  },
   "contact": {
     "email": "krisz.nyikos@gmail.com",
     "phone": "+36202894310",

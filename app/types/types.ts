@@ -6,9 +6,9 @@ import type { CvSkillsLevel, CvSkillCategory } from './enums'
 export type CvContent = {
   familyName: string
   givenName: string
+  jobTitle: string
   about: string
-  skills: { name: string, level: CvSkillsLevel, category?: CvSkillCategory }[]
-  languages: { [key: string]: string }
+  skills: { name: string, level: CvSkillsLevel | string, category?: CvSkillCategory }[]
   contact: {
     email: string
     phone: string
