@@ -3,13 +3,13 @@ import type { CvSkillsLevel } from '@/types'
 import { SkillLevelColor } from '@/constants'
 
 const { level } = defineProps<{
-  level: CvSkillsLevel
+  level: CvSkillsLevel | string
 }>()
 </script>
 
 <template>
   <UBadge
-    :color="SkillLevelColor[level]"
+    :color="SkillLevelColor[level as CvSkillsLevel] || 'neutral'"
     variant="subtle"
     size="sm"
   >
