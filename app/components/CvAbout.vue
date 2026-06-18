@@ -2,16 +2,29 @@
 import type { CvContent } from '@/types'
 
 const { title, about } = defineProps<{
-  title: string
+  title?: string
   about: CvContent['about']
+  contact: CvContent['contact']
 }>()
 </script>
 
 <template>
-  <div>
-    <h2 class="text-lg font-bold mb-2 border-b border-gray-200 pb-1">
+  <UContainer>
+    <h2
+      v-if="title"
+      class="text-lg font-bold mb-2 border-b border-gray-200 pb-1"
+    >
       {{ title }}
     </h2>
-    <p>{{ about }}</p>
-  </div>
+    <div class="flex justify-between items-center gap-4">
+      <CvImage class="rounded-full" />
+      <div class="flex flex-col gap-2">
+        <p class="text-sm">
+          {{ about }}
+        </p>
+        <USeparator class="my-2" />
+        <CvContact :contact="contact" />
+      </div>
+    </div>
+  </UContainer>
 </template>
