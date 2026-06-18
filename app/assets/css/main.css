@@ -16,3 +16,20 @@
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
 }
+
+/* Print helpers: force a page break before elements with this class when printing */
+@media print {
+  .page-break-print {
+    /* Legacy and modern properties to maximize browser support */
+    page-break-before: always;
+    page-break-after: avoid;
+    break-before: page;
+    break-after: avoid;
+  }
+
+  /* Prevent breaking inside important sections if needed */
+  .avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
