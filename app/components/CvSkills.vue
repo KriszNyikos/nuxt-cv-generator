@@ -14,14 +14,17 @@ const mappedSkills = mapSkillsToCategories(skills)
     <h2 class="text-md font-bold mb-2">
       {{ title }}
     </h2>
-    <UCard class="drop-shadow-xl print:drop-shadow-none" v-if="skills && skills.length">
+    <UCard
+      v-if="skills && skills.length"
+      class="drop-shadow-xl print:drop-shadow-none"
+    >
       <div class="flex flex-col flex-wrap gap-2 text-md">
         <div
           v-for="([category, items], categoryIndex) in Object.entries(mappedSkills)"
           :key="categoryIndex"
           class="flex flex-col gap-2 justify-start print:justify-start items-start"
         >
-          <div class="grid grid-cols-[80px_1fr] w-full">
+          <div class="flex flex-col gap-2 lg:grid lg:grid-cols-[80px_1fr] w-full">
             <div class="font-bold text-sm text-muted">
               {{ category }}
             </div>
