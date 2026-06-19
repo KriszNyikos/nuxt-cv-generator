@@ -2,7 +2,7 @@
 import type { CvContent } from '@/types'
 import type { NavigationMenuItem } from '@nuxt/ui'
 
-const props = defineProps<{ name: string, jobTitle: string, contact: CvContent['contact'], pdfRoute: string }>()
+const props = defineProps<{ name: string, jobTitle: string, contact: CvContent['contact'], pdfRoute: string, isHu: boolean }>()
 const items = computed<NavigationMenuItem[]>(() => [
   { label: 'Github', to: props.contact.github, target: '_blank', icon: 'i-simple-icons-github' },
   { label: 'Linkedin', to: props.contact.linkedin, target: '_blank', icon: 'i-simple-icons-linkedin' },
@@ -25,19 +25,22 @@ const items = computed<NavigationMenuItem[]>(() => [
       </div>
     </template>
     <template #right>
-      <UColorModeButton class="print:hidden" />
-      <ULink
+      <UButton
+        :color="props.isHu ? 'neutral' : 'primary'"
+        variant="ghost"
         to="/"
-        class="print:hidden"
-      >EN</ULink>
-      <USeparator
-        orientation="vertical"
-        class="print:hidden"
-      />
-      <ULink
+      >
+        EN
+      </UButton>
+      <UButton
+        :color="props.isHu ? 'primary' : 'neutral'"
+        variant="ghost"
         to="/hu"
-        class="print:hidden"
-      >HU</ULink>
+      >
+        HU
+      </UButton>
+
+      <UColorModeButton class="print:hidden" />
       <div class="hidden lg:flex print:flex items-center gap-1">
         <UButton
           color="neutral"

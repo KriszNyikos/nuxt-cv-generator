@@ -18,6 +18,7 @@ const pdfRoute = computed(() => `/${pdfFileNamePrefix}_${isHu.value ? 'hu' : 'en
       :job-title="content.jobTitle"
       :contact="content.contact"
       :pdf-route="pdfRoute"
+      :is-hu="isHu"
     />
     <CvAbout
 
