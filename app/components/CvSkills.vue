@@ -24,7 +24,7 @@ const mappedSkills = mapSkillsToCategories(skills)
           :key="categoryIndex"
           class="flex flex-col gap-2 justify-start print:justify-start items-start"
         >
-          <div class="flex flex-col gap-2 lg:grid lg:grid-cols-[80px_1fr] w-full">
+          <div class="flex flex-col gap-2 lg:grid lg:grid-cols-[80px_1fr] print:grid print:grid-cols-[80px_1fr]  w-full">
             <div class="font-bold text-sm text-muted">
               {{ category }}
             </div>
