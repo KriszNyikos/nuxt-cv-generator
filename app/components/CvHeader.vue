@@ -67,6 +67,7 @@ const items = computed<NavigationMenuItem[]>(() => [
           target="_blank"
           icon="material-symbols:download-rounded"
           aria-label="Download the CV in PDF format"
+          class="print:hidden"
         />
       </div>
     </template>
