@@ -16,15 +16,19 @@ const { title, about } = defineProps<{
     >
       {{ title }}
     </h2>
-    <div class="flex justify-between items-center gap-4">
-      <CvImage class="rounded-full" />
-      <div class="flex flex-col gap-2">
-        <p class="text-sm">
-          {{ about }}
-        </p>
-        <USeparator class="my-2" />
-        <CvContact :contact="contact" />
+    <UCard
+      class="drop-shadow-xl print:drop-shadow-none"
+    >
+      <div class="flex justify-between items-center gap-4">
+        <CvImage class="rounded-full" />
+        <div class="flex flex-col gap-2">
+          <p class="text-sm">
+            {{ about }}
+          </p>
+          <USeparator class="my-2" />
+          <CvContact :contact="contact" />
+        </div>
       </div>
-    </div>
+    </UCard>
   </UContainer>
 </template>

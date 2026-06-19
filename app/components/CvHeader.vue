@@ -7,6 +7,9 @@ const props = defineProps<{ name: string, jobTitle: string, contact: CvContent['
 <template>
   <UHeader
     :toggle="false"
+    :ui="{
+      root: 'border-none bg-transparent'
+    }"
   >
     <template #left>
       <div class="flex flex-col gap-1">
