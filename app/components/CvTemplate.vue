@@ -1,10 +1,14 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { CvContent } from '@/types'
 import isHuRoute from '@/composables'
 import { TitleTranslations } from '@/constants'
 
 const { content } = defineProps<{ content: CvContent }>()
 const { isHu } = isHuRoute()
+const runtimeConfig = useRuntimeConfig()
+const pdfFileNamePrefix = runtimeConfig.public.pdfFilenamePrefix || ''
+const pdfRoute = computed(() => `/${pdfFileNamePrefix}_${isHu.value ? 'hu' : 'en'}.pdf`)
 </script>
 
 <template>
@@ -13,6 +17,7 @@ const { isHu } = isHuRoute()
       :name="content.familyName + ' ' + content.givenName"
       :job-title="content.jobTitle"
       :contact="content.contact"
+      :pdf-route="pdfRoute"
     />
     <CvAbout
 

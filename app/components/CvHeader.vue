@@ -2,10 +2,11 @@
 import type { CvContent } from '@/types'
 import type { NavigationMenuItem } from '@nuxt/ui'
 
-const props = defineProps<{ name: string, jobTitle: string, contact: CvContent['contact'] }>()
+const props = defineProps<{ name: string, jobTitle: string, contact: CvContent['contact'], pdfRoute: string }>()
 const items = computed<NavigationMenuItem[]>(() => [
   { label: 'Github', to: props.contact.github, target: '_blank', icon: 'i-simple-icons-github' },
-  { label: 'Linkedin', to: props.contact.linkedin, target: '_blank', icon: 'i-simple-icons-linkedin' }
+  { label: 'Linkedin', to: props.contact.linkedin, target: '_blank', icon: 'i-simple-icons-linkedin' },
+  { label: 'Download the CV in PDF format', to: props.pdfRoute, target: '_blank', icon: 'material-symbols:download-rounded' }
 ])
 </script>
 
@@ -53,6 +54,14 @@ const items = computed<NavigationMenuItem[]>(() => [
           target="_blank"
           icon="i-simple-icons-linkedin"
           aria-label="LinkedIn"
+        />
+        <UButton
+          color="neutral"
+          variant="ghost"
+          :href="props.pdfRoute"
+          target="_blank"
+          icon="material-symbols:download-rounded"
+          aria-label="Download the CV in PDF format"
         />
       </div>
     </template>

@@ -11,6 +11,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  runtimeConfig: {
+    public: {
+      pdfFilenamePrefix: process.env.PDF_FILENAME_PREFIX ?? ''
+    }
+  },
+
   routeRules: {
     '/': { prerender: true },
     '/hu': { prerender: true }
