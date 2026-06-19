@@ -29,6 +29,7 @@ const items = computed<NavigationMenuItem[]>(() => [
         :color="props.isHu ? 'neutral' : 'primary'"
         variant="ghost"
         to="/"
+        class="print:hidden"
       >
         EN
       </UButton>
@@ -36,6 +37,7 @@ const items = computed<NavigationMenuItem[]>(() => [
         :color="props.isHu ? 'primary' : 'neutral'"
         variant="ghost"
         to="/hu"
+        class="print:hidden"
       >
         HU
       </UButton>
