@@ -19,7 +19,7 @@ const { title, about } = defineProps<{
     <UCard
       class="drop-shadow-xl print:drop-shadow-none"
     >
-      <div class="flex justify-between items-center gap-4">
+      <div class="flex flex-col lg:flex-row justify-between items-center gap-4">
         <CvImage class="rounded-full" />
         <div class="flex flex-col gap-2">
           <p class="text-sm">

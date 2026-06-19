@@ -7,7 +7,7 @@ const { contact } = defineProps<{
 </script>
 
 <template>
-  <div class="flex flex-row gap-4 flex-wrap text-sm">
+  <div class="flex flex-col lg:flex-row gap-4 flex-wrap text-sm">
     <div
       class="flex flex-row gap-1"
     >
