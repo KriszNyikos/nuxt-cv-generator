@@ -17,11 +17,10 @@ import puppeteer from 'puppeteer-core'
     const routes = process.env.PDF_ROUTES ? process.env.PDF_ROUTES.split(',').map(r => r.trim()) : ['/', '/hu']
     const outputDir = process.env.PDF_OUTPUT_DIR ?? 'public'
     const filenamePrefix = process.env.PDF_FILENAME_PREFIX
-    const year = new Date().toISOString().slice(0, 4)
     for (const route of routes) {
       await page.goto(`${host}${route}`, { waitUntil: 'networkidle2', timeout: 60000 })
       await page.waitForSelector('#__nuxt', { timeout: 10000 })
-      const name = route === '/' ? `${filenamePrefix}_en_${year}.pdf` : `${filenamePrefix}_hu_${year}.pdf`
+      const name = route === '/' ? `${filenamePrefix}_en.pdf` : `${filenamePrefix}_hu.pdf`
       await page.pdf({
         path: `${outputDir}/${name}`,
         format: 'A4',
